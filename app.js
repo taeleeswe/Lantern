@@ -1,3 +1,10 @@
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config();
+}
+
+console.log(process.env.SECRET);
+console.log(process.env.API_KEY);
+
 const express = require("express");
 const path = require("path");
 const mongoose = require("mongoose");
@@ -64,15 +71,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/fakeUser", async (req, res) => {
-  const user = new User({ email: "lee@gmail.com", username: "lee" });
-  const newUser = await User.register(user, "tae");
-  res.send(newUser);
-});
-
 app.use("/", userRoutes);
-app.use("/campgrounds/:id/reviews", reviewRoutes);
 app.use("/campgrounds", campgroundRoutes);
+app.use("/campgrounds/:id/reviews", reviewRoutes);
 
 app.get("/", (req, res) => {
   res.render("home");

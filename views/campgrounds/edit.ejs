@@ -7,7 +7,8 @@
       action="/campgrounds/<%= campground._id %>?_method=PUT"
       method="POST"
       novalidate
-      class="validated-form">
+      class="validated-form"
+      enctype="multipart/form-data">
       <div class="mb-3">
         <label class="form-label" for="title">Title</label>
         <input
@@ -31,17 +32,6 @@
         <div class="valid-feedback">Looks good!</div>
       </div>
       <div class="mb-3">
-        <label class="form-label" for="image">Image Url</label>
-        <input
-          class="form-control"
-          type="text"
-          id="image"
-          name="campground[image]"
-          value="<%= campground.image %>"
-          required />
-        <div class="valid-feedback">Looks good!</div>
-      </div>
-      <div class="mb-3">
         <label class="form-label" for="price">Campground Price</label>
         <div class="input-group">
           <span class="input-group-text" id="price-label">$</span>
@@ -59,6 +49,15 @@
         </div>
       </div>
       <div class="mb-3">
+        <label for="image" class="form-label">Upload images</label>
+        <input
+          class="form-control"
+          type="file"
+          id="image"
+          name="image"
+          multiple />
+      </div>
+      <div class="mb-3">
         <label class="form-label" for="description">Description</label>
         <textarea
           class="form-control"
@@ -70,6 +69,21 @@
         >
         <div class="valid-feedback">Looks good!</div>
       </div>
+
+      <div class="mb-3">
+        <% campground.images.forEach(function(img, i){ %>
+        <img src="<%=img.thumbnail%>" class="img-thumbnail" alt="" />
+        <div class="form-check-inline">
+          <input
+            type="checkbox"
+            id="img-<%= i %>"
+            name="deleteImages[]"
+            value="<%= img.filename %>" />
+        </div>
+        <label for="img-<%= i %>">Delete?</label>
+        <% }) %>
+      </div>
+
       <div class="mb-3">
         <button class="btn btn-info">Update Campground</button>
       </div>
