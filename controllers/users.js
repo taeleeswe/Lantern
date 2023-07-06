@@ -21,6 +21,9 @@ module.exports.register = async (req, res) => {
 };
 
 module.exports.renderLogin = (req, res) => {
+  if (req.query.returnTo) {
+    req.session.returnTo = req.query.returnTo;
+  }
   res.render("users/login");
 };
 
