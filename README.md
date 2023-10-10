@@ -35,15 +35,6 @@ You can see a live demo of Lantern Campground Reviews [[here](https://lantern.cy
 - Node.js and npm
 - MongoDB
 
-### Installation
-
-1. Clone the repository: `git clone https://github.com/taeleeswe/Lantern.git`
-2. Navigate to the project directory: `cd Lantern`
-3. Install dependencies for the server: `npm install`
-4. Navigate to the client directory: `cd client`
-5. Install dependencies for the client: `npm install`
-6. Set up environment variables: Create a `.env` file in the root directory and configure variables for MongoDB, Cloudinary, and Mapbox.
-
 
 ## Contact
 
