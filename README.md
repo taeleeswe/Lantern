@@ -1,4 +1,4 @@
-# Lantern (Campground Reviews site)
+# Lantern (Campground Reviews Site)
 
 Lantern is a full-stack web application for sharing and reviewing campgrounds. It provides users with a platform to explore different campgrounds, read reviews, and share their own camping experiences.
 
