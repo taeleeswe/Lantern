@@ -27,8 +27,8 @@ You can see a live demo of Lantern Campground Reviews [[here](https://lantern.cy
 - User Authentication: Passport.js
 - Maps: Mapbox API
 - Image Upload: Cloudinary
-- Deployment: Heroku
-- 
+- Deployment: Cyclic
+
 
 ### Prerequisites
 
@@ -43,22 +43,6 @@ You can see a live demo of Lantern Campground Reviews [[here](https://lantern.cy
 4. Navigate to the client directory: `cd client`
 5. Install dependencies for the client: `npm install`
 6. Set up environment variables: Create a `.env` file in the root directory and configure variables for MongoDB, Cloudinary, and Mapbox.
-
-### Usage
-
-1. Run the server: `npm run server`
-2. Run the client: `npm run client`
-3. Access the app in your browser at `http://localhost:3000`
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature/my-feature`
-3. Make your changes and commit them: `git commit -m "Add my feature"`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Create a pull request explaining your changes.
 
 
 ## Contact
