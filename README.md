@@ -5,12 +5,7 @@ Lantern is a full-stack web application for sharing and reviewing campgrounds. I
 ![Lantern Homepage](https://github.com/taeleeswe/Lanthern/assets/123449246/68c01374-1e47-4d8c-b456-138d78783b85)
 <img width="1297" height="1164" alt="Screenshot 2025-10-18 at 6 57 53 PM" src="https://github.com/user-attachments/assets/feaf0b7c-0541-40d4-b3f0-777abd876cb3" />
 <img width="1313" height="849" alt="Screenshot 2025-10-18 at 6 58 04 PM" src="https://github.com/user-attachments/assets/a7219587-10bd-4a6b-97fe-9316fe7e4762" />
-<span style="display: inline-block; margin: 0 5px;">
-  <img width="539" height="624" alt="Screenshot 2025-10-18 at 6 58 15 PM" src="https://github.com/user-attachments/assets/44d7e67c-d57d-4c73-bd22-959947aee2b5" />
-</span>
-<span style="display: inline-block; margin: 0 5px;">
-  <img width="531" height="739" alt="Screenshot 2025-10-18 at 6 58 28 PM" src="https://github.com/user-attachments/assets/8faf3aad-de5d-49c3-93c7-b5a91ea5d0de" />
-</span>
+<img width="825" height="680" alt="KakaoTalk_Photo_2025-10-20-16-13-02" src="https://github.com/user-attachments/assets/47028e1a-a934-4c81-85e1-79b52e6b7138" />
 <img width="1305" height="841" alt="Screenshot 2025-10-18 at 6 59 06 PM" src="https://github.com/user-attachments/assets/ab540e3e-0f8c-41cc-b7c1-dd9de7043d64" />
 
 
